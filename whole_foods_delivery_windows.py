@@ -34,7 +34,7 @@ def getWFSlot(productUrl):
             print("Condition 1: FOUND OPEN SLOTS AT ",  datetime.now().time())
             winsound.Beep(freq, duration)
             no_open_slots = False
-            time.sleep(140000)
+            time.sleep(14000)
       except AttributeError:
          continue
 
@@ -45,7 +45,7 @@ def getWFSlot(productUrl):
       except AttributeError: 
             print("Condition 2: FOUND OPEN SLOTS AT ",  datetime.now().time())
             winsound.Beep(freq, duration)
-            time.sleep(140000)
+            time.sleep(14000)
             no_open_slots = False
 
 
